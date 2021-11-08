@@ -1,4 +1,4 @@
-let Calculator = require ("../../../src/calculator/calculator");
+let Calculator = require ("../../src/calculator/calculator");
 
 describe ("Test Calculator class", function() {
   let calc = new Calculator();

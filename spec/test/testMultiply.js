@@ -1,4 +1,4 @@
-let Calculator = require ("../../../src/calculator/calculator");
+let Calculator = require ("../../src/calculator/calculator");
 
 describe ("Test Calculator class", function() {
   let calc = new Calculator();
@@ -18,7 +18,7 @@ describe ("Test Calculator class", function() {
 
   it ("Test mult function with negative params", function () {
     calc.plus(5) 
-      .multiply(-10)
+        .multiply(-10)
     expect(calc.result).toBe(-50);
   });
 

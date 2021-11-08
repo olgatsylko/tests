@@ -1,4 +1,4 @@
-let Calculator = require ("../../../src/calculator/calculator");
+let Calculator = require ("../../src/calculator/calculator");
 
 describe ("Test Calculator class", function() {
   let calc = new Calculator();
@@ -37,7 +37,7 @@ describe ("Test Calculator class", function() {
     expect(calc.result).toBe(-2147483647);
   });
 
-  it ("Test minus function with long params", function () {
+  it ("Test minus function: Int Min", function () {
     calc.minus(2147483648)
     expect(calc.result).toBe(-2147483648);
   });
