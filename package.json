@@ -1,0 +1,23 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "init": "jasmine init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olgatsylko/tests.git"
+  },
+  "author": "Olga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olgatsylko/tests/issues"
+  },
+  "homepage": "https://github.com/olgatsylko/tests#readme",
+  "devDependencies": {
+    "jasmine": "^3.10.0"
+  }
+}
